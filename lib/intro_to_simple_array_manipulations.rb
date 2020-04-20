@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def using_push(array, string)
    array.push(string)
@@ -14,7 +14,6 @@ end
 
 def pop_with_args(array, number_items)
    array.pop(number_items)
-   binding.pry
 end
 
 def using_shift(array)
